@@ -1,5 +1,7 @@
 # Github-api single page app
 
+![project image](http://url/to/img.png)
+
 This is simple app which pulls data from [Github REST API](https://developer.github.com/v3/).
 User needs to input any valid GitHub username and click Go button. 
 App than displays basic info about that users Github profile. 
