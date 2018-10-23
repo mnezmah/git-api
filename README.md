@@ -1,6 +1,6 @@
 # Github-api single page app
 
-![project image](http://url/to/img.png)
+![project image](https://github.com/mnezmah/git-api/blob/master/Capture.PNG)
 
 This is simple app which pulls data from [Github REST API](https://developer.github.com/v3/).
 User needs to input any valid GitHub username and click Go button. 
