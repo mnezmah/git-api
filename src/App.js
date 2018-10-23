@@ -43,14 +43,14 @@ getUser = () => {
 
     return (
       <div className="App">
-      <div>
-    		<h1>Github Search station</h1>
+      <div className="station">
+    		<h1>Github Search Station</h1>
     	</div>
-      	<p>Enter a username to get a profile info and repositories </p>
+      	<h4>Enter a username to get a profile info and repositories </h4>
     		<div className="search">
     			<input type="text"
     						 placeholder="Enter a GitHub Username" ref="name"/>
-    			<button onClick={this.getUser}>Go</button>
+    			<button className="go" onClick={this.getUser}>Go</button>
           {this.state.showComponent ?
             <Profile user={user}/>:
             null
